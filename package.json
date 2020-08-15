@@ -1,0 +1,19 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "description": "Template for a Node.js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peteoshea/node-template.git"
+  },
+  "author": "Pete O'Shea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peteoshea/node-template/issues"
+  },
+  "homepage": "https://github.com/peteoshea/node-template#readme"
+}
