@@ -5,4 +5,9 @@ if ($LastExitCode) {
     Exit $LastExitCode
 }
 
+# Reset database to a fresh state
+Write-Host "`n==> Setting up DB...`n"
+dropdb testingpassport
+createdb testingpassport
+
 Write-Host "`n==> App is now ready to go!`n"

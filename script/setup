@@ -13,6 +13,8 @@ cd "$(dirname "$0")/.."
 script/bin/bootstrap
 
 # Reset database to a fresh state
-# echo "==> Setting up DB…"
+echo "==> Setting up DB…"
+dropdb testingpassport
+createdb testingpassport
 
 echo "==> App is now ready to go!"
